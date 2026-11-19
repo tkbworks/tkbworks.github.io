@@ -11,13 +11,16 @@
   header p { margin: 0; font-size: 13px; opacity: .92; line-height: 1.7; }
   main { max-width: 760px; margin: 0 auto; padding: 16px; }
   .card { background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+  .card.past { background: #eeeeea; color: #666; }
   .meta { font-size: 12px; color: #666; margin-bottom: 6px; }
   .badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #e8f0ea; color: #1f4d3a; margin-right: 6px; }
   .badge.warn { background: #fdecec; color: #a33; }
   .badge.fee { background: #eef1f8; color: #345; }
+  .badge.past { background: #ddd; color: #555; }
   .card h2 { font-size: 16px; margin: 4px 0 6px; }
   .amount { font-weight: bold; font-size: 14px; margin: 4px 0; }
   .deadline { color: #a33; font-weight: bold; font-size: 14px; }
+  .card.past .deadline { color: #888; }
   .summary { font-size: 14px; line-height: 1.6; margin: 6px 0; }
   .note { font-size: 12px; color: #555; line-height: 1.6; }
   .link { margin: 8px 0 0; font-size: 13px; }
@@ -120,13 +123,14 @@
       <li>運営：tkbworks（個人で運営しています）</li>
       <li>このサイトは川崎市や各機関の公式サイトではありません。市の広報などをもとに、個人が情報を集めて掲載しています</li>
       <li>制度の内容・申込についての問い合わせは、各項目の公式ページに記載の窓口へお願いします（このサイトではお答えできません）</li>
-      <li>更新：毎月、「かわさき市政だより」の発行に合わせて新しい情報を追加し、締切を過ぎた項目は取り下げます</li>
+      <li>更新：毎月、「かわさき市政だより」の発行に合わせて新しい情報を追加します。締切を過ぎた項目は現行リストから外し、「過去の情報」に移して残します</li>
     </ul>
+    <p class="link"><a href="./archive.html">過去の情報（締め切り済み）を見る →</a></p>
   </section>
 </main>
 <footer>
-  情報源：川崎市「かわさき市政だより」2026年11月号（全市版・麻生区版）、麻生区お知らせ（2026年11月）／収集日：2026年11月19日<br>
-  締切を過ぎた項目は順次取り下げます。制度の詳細・最新情報は、各項目の公式ページでご確認ください。
+  情報源：川崎市「かわさき市政だより」2026年11月号（全市版・麻生区版）、麻生区お知らせ（2026年11月）／収集日：2026-11-19<br>
+  制度の詳細・最新情報は、各項目の公式ページでご確認ください。
 </footer>
 </body>
 </html>
