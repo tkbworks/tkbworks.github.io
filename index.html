@@ -3,25 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>tkbworks</title>
+<title>暮らし便利帳 | tkbworks</title>
+<meta name="description" content="暮らしの助けになるお金や住まいの情報を、公式情報から集めて締切順にまとめています。tkbworks（個人）が運営する情報サイトです。">
 <style>
-  body { font-family: sans-serif; margin: 0; background: #f6f5f1; color: #222; }
-  main { max-width: 640px; margin: 0 auto; padding: 40px 16px; }
-  h1 { font-size: 22px; }
-  ul { line-height: 2; padding-left: 18px; }
-  a { color: #1f4d3a; }
-  footer { font-size: 12px; color: #777; margin-top: 40px; }
+  body { font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; margin: 0; background: #f6f7f6; color: #222; }
+  header { background: #1f4d3a; color: #fff; padding: 28px 16px; }
+  header h1 { font-size: 24px; margin: 0 0 8px; }
+  header p { margin: 0; font-size: 13px; opacity: .92; line-height: 1.7; }
+  main { max-width: 640px; margin: 0 auto; padding: 20px 16px; }
+  .card { display: block; background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin-bottom: 12px; text-decoration: none; color: #222; }
+  .card h2 { font-size: 16px; margin: 0 0 6px; color: #1f4d3a; }
+  .card p { font-size: 13px; line-height: 1.7; margin: 0; }
+  .about { font-size: 13px; line-height: 1.8; margin-top: 24px; }
+  footer { font-size: 12px; color: #777; padding: 8px 16px 28px; max-width: 640px; margin: 0 auto; line-height: 1.7; }
 </style>
 </head>
 <body>
+<header>
+  <h1>暮らし便利帳</h1>
+  <p>暮らしの助けになるお金や住まいの情報を、公式の発表から集めてまとめた小さな情報サイトです。</p>
+</header>
 <main>
-  <h1>tkbworks</h1>
-  <p>個人で作っている小さな情報サイトの置き場所です。</p>
-  <ul>
-    <li><a href="./kawasaki_money/">暮らしの助けになるお金の情報（川崎市）</a></li>
-    <li><a href="./housing_info/">公営住宅の募集日程（東京・埼玉・神奈川）</a></li>
-  </ul>
-  <footer>運営：tkbworks（個人）</footer>
+  <a class="card" href="./kawasaki_money/">
+    <h2>暮らしの助けになるお金の情報（川崎市）</h2>
+    <p>川崎市の給付金・助成金・割引などを、締切の近い順にまとめています。市政だより（月1回）をもとに更新。</p>
+  </a>
+  <a class="card" href="./housing_info/">
+    <h2>公営住宅の募集日程（東京・埼玉・神奈川）</h2>
+    <p>都営・県営・市営住宅について、「いま受付中か」「次回募集はいつか」だけをまとめています。</p>
+  </a>
+  <section class="about">
+    <h2>このサイトについて</h2>
+    <p>運営：tkbworks（個人で運営しています）<br>
+    このサイトは自治体などの公式サイトではありません。情報は各公式ページをもとに作成していますが、正確な内容は必ず公式ページでご確認ください。制度についてのお問い合わせは、各公式窓口にお願いします。</p>
+  </section>
 </main>
+<footer>暮らし便利帳（運営：tkbworks）</footer>
 </body>
 </html>
