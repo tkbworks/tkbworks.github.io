@@ -37,6 +37,7 @@ CSS = """
   section .sub { font-size: 12px; color: #666; margin: 0 0 10px; }
   ul { font-size: 13px; line-height: 1.8; padding-left: 18px; }
   footer { font-size: 12px; color: #777; padding: 8px 16px 28px; max-width: 760px; margin: 0 auto; line-height: 1.7; }
+  .ad { max-width: 760px; margin: 24px auto 0; padding: 0 16px; text-align: center; }
 """
 
 def card(i, past=False):
@@ -112,10 +113,16 @@ index = f"""<!DOCTYPE html>
     </ul>
     <p class="link"><a href="./archive.html">過去の情報（締め切り済み）を見る →</a></p>
   </section>
+  <section class="ad">
+    <!-- A8.net 広告枠: 取得した広告コードをここに貼る。コードが入るまでは何も表示されない -->
+    <!-- 広告を載せたら「このサイトについて」に「当サイトはアフィリエイト広告を含みます」旨を1行追加する -->
+  </section>
 </main>
 <footer>
   情報源：川崎市「かわさき市政だより」2026年11月号（全市版・全区版）、各区のお知らせ（2026年11月）／収集日：{collected}<br>
-  制度の詳細・最新情報は、各項目の公式ページでご確認ください。
+  制度の詳細・最新情報は、各項目の公式ページでご確認ください。<br>
+  更新情報は <a href="https://x.com/takabouworks" target="_blank" rel="noopener">X（@TakabouWorks）</a> でもお知らせします。<br>
+  <a href="../">暮らし便利帳（トップ）へ戻る</a>
 </footer>
 </body>
 </html>
@@ -148,7 +155,9 @@ archive = f"""<!DOCTYPE html>
   <p class="link"><a href="./index.html">← 現在募集中の情報に戻る</a></p>
 </main>
 <footer>
-  運営：tkbworks（個人）。このサイトは川崎市や各機関の公式サイトではありません。
+  運営：tkbworks（個人）。このサイトは川崎市や各機関の公式サイトではありません。<br>
+  更新情報は <a href="https://x.com/takabouworks" target="_blank" rel="noopener">X（@TakabouWorks）</a> でもお知らせします。<br>
+  <a href="../">暮らし便利帳（トップ）へ戻る</a>
 </footer>
 </body>
 </html>
